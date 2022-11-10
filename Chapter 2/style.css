@@ -1,0 +1,45 @@
+.red {
+  background-color: red;
+  color: white;
+  height: 200px;
+}
+.green {
+  background: green;
+  color: aqua;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1334px;
+  height: 1744px;
+  /* background-color: aqua; */
+  color: black;
+  /* background-repeat: no-repeat; */
+  /* background-image: url(index.jpg); */
+  /* background-size: 63px 45px; */
+  /* background-position: center; */
+  border: 2px solid red;
+  /* background-attachment: fixed; */
+  background: red url(index.jpg) scroll top right;
+}
+
+ul {
+  background-color: black;
+  color: yellow;
+  width: 73vh;
+  height: 64vh;
+}
+.main {
+  background-color: red;
+}
+
+.bg {
+  width: 565px;
+  height: 271px;
+  background: url("index.jpg") no-repeat;
+  background-color: aqua;
+}
